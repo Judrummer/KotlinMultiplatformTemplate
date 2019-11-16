@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import core
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(Proxy().proxyHello())
         // Do any additional setup after loading the view.
     }
 
